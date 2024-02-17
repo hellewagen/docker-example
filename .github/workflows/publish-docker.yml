@@ -30,7 +30,7 @@ jobs:
 
       - name: Debugging
         run: |
-          env
+          env | sort
           echo IMAGE_NAME: $IMAGE_NAME
 
       - name: Build and push Docker image
